@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tentang Saya - Roby</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - Roby</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
+    <h1>Hubungi Saya</h1>
     <nav>
-      <h1 class="logo">Roby<span>Aliansyah</span></h1>
       <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="about.html" class="active">Tentang</a></li>
-        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="about">
-      <h2>Tentang Saya</h2>
-      <img src="https://cdn.corenexis.com/files/b/4897875168.jpg" alt="Roby" class="about-img">
+  <main class="contact">
+    <form class="contact-form">
+      <label>Nama:</label>
+      <input type="text" placeholder="Masukkan nama Anda" required />
 
-      <p>
-        Halo! Saya <b>Mochamad Roby Aliansyah</b>, mahasiswa semester 3 di <b>Program Studi Teknologi Rekayasa Multimedia, Telkom University</b>.
-        Saya memiliki ketertarikan besar pada bidang animasi CGI dan kecerdasan buatan (AI).
-      </p>
-      <p>
-        Sejak duduk di bangku SMK, saya gemar bereksperimen membuat desain visual, video, hingga pemrograman web.
-        Kini, saya sedang memperdalam keterampilan multimedia dan AI agar bisa berkarier di bidang teknologi kreatif.
-      </p>
-      <p>
-        Cita-cita saya adalah menjadi <b>AI Engineer dan CGI Animator</b> yang dapat menggabungkan kreativitas dengan teknologi untuk menghasilkan karya yang berdampak bagi masyarakat.
-      </p>
+      <label>Email:</label>
+      <input type="email" placeholder="Masukkan email Anda" required />
 
-      <div class="activities">
-        <h3>Pengalaman & Kegiatan</h3>
-        <ul>
-          <li>🎥 Proyek animasi pendek “Kotak Saran Terakhir”</li>
-          <li>🧠 Anggota tim riset multimedia cerdas (AI-Visual Team)</li>
-          <li>💡 Pengembang aplikasi simulasi Python berbasis GUI</li>
-        </ul>
-      </div>
+      <label>Pesan:</label>
+      <textarea placeholder="Tulis pesan Anda..." required></textarea>
 
-      <a href="index.html" class="btn">← Kembali ke Beranda</a>
-      <a href="contact.html" class="btn">Hubungi Saya →</a>
-    </section>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="social">
+      <p>📞 Telepon: <a href="tel:+6281382845308">+62 813-8284-5308</a></p>
+      <p>📧 Email: <a href="mailto:robyaliansyah@gmail.com">robyaliansyah@gmail.com</a></p>
+      <p>🌐 LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/robyaliansyah</a></p>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html" class="btn">Home</a>
+      <a href="about.html" class="btn">About</a>
+    </div>
   </main>
 
   <footer>
-    <p>© 2025 Mochamad Roby Aliansyah | D4SM-48-05</p>
+    <p>© 2025 Mochamad Roby Aliansyah</p>
   </footer>
 </body>
 </html>
-
