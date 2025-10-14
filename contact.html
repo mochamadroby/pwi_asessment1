@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontak | Roby</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - Mochamad Roby Aliansyah</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -12,38 +13,42 @@
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html" class="active">Contact</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
   </nav>
 
-  <div class="container">
+  <main>
     <aside class="sidebar">
-      <h3>Kontak Langsung</h3>
-      <p>📞 <a href="tel:+6281234567890">+62 812 3456 7890</a></p>
-      <p>📧 <a href="mailto:robyaliansyah@gmail.com">robyaliansyah@gmail.com</a></p>
-      <p>🌐 <a href="https://linkedin.com" target="_blank">LinkedIn Roby</a></p>
+      <h2>Kontak Langsung</h2>
+      <p><strong>Telepon:</strong> +62 812-3456-7890</p>
+      <p><strong>Email:</strong> <a href="mailto:robyaliansyah@gmail.com">robyaliansyah@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/robyaliansyah" target="_blank">linkedin.com/in/robyaliansyah</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/roby.aliansyah" target="_blank">@roby.aliansyah</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/robyaliansyah" target="_blank">github.com/robyaliansyah</a></p>
     </aside>
 
-    <main class="content">
-      <h2>Formulir Pesan</h2>
-      <form class="contact-form">
-        <label>Nama:</label>
-        <input type="text" placeholder="Masukkan nama Anda" required>
+    <section class="body-area">
+      <h2>Formulir Kontak</h2>
+      <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required />
 
-        <label>Email:</label>
-        <input type="email" placeholder="Masukkan email Anda" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-        <label>Pesan:</label>
-        <textarea placeholder="Tulis pesan Anda..." required></textarea>
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="5" required></textarea>
 
-        <button type="submit">Kirim</button>
+        <button type="submit">Kirim Pesan</button>
       </form>
-    </main>
-  </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Mochamad Roby Aliansyah</p>
+    <p>&copy; 2025 Mochamad Roby Aliansyah | Telkom University</p>
   </footer>
 </body>
 </html>
