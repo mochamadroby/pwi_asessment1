@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kontak - Roby</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Roby</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Hubungi Saya</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main class="contact">
-    <form class="contact-form">
-      <label>Nama:</label>
-      <input type="text" placeholder="Masukkan nama Anda" required />
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
 
-      <label>Email:</label>
-      <input type="email" placeholder="Masukkan email Anda" required />
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Kontak Langsung</h3>
+      <p>📞 <a href="tel:+6281234567890">+62 812 3456 7890</a></p>
+      <p>📧 <a href="mailto:robyaliansyah@gmail.com">robyaliansyah@gmail.com</a></p>
+      <p>🌐 <a href="https://linkedin.com" target="_blank">LinkedIn Roby</a></p>
+    </aside>
 
-      <label>Pesan:</label>
-      <textarea placeholder="Tulis pesan Anda..." required></textarea>
+    <main class="content">
+      <h2>Formulir Pesan</h2>
+      <form class="contact-form">
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan nama Anda" required>
 
-      <button type="submit">Kirim Pesan</button>
-    </form>
+        <label>Email:</label>
+        <input type="email" placeholder="Masukkan email Anda" required>
 
-    <div class="social">
-      <p>📞 Telepon: <a href="tel:+6281382845308">+62 813-8284-5308</a></p>
-      <p>📧 Email: <a href="mailto:robyaliansyah@gmail.com">robyaliansyah@gmail.com</a></p>
-      <p>🌐 LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/robyaliansyah</a></p>
-    </div>
+        <label>Pesan:</label>
+        <textarea placeholder="Tulis pesan Anda..." required></textarea>
 
-    <div class="nav-links">
-      <a href="index.html" class="btn">Home</a>
-      <a href="about.html" class="btn">About</a>
-    </div>
-  </main>
+        <button type="submit">Kirim</button>
+      </form>
+    </main>
+  </div>
 
   <footer>
     <p>© 2025 Mochamad Roby Aliansyah</p>
